@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // Javascript Pratice exercises for Beginners 
+
+        // Day 3 
+
+        // Exercise 1. Given a year ,report if it is a leap year 
+        // solution :
+        // const isLeapYear = (year) => year%4==0 ? console.log('Leap year'):console.log('not a leap year');
+           
+        
+        
+        // console.log(isLeapYear(2017));
+
+        // Exercise 2. Write a javascript program to comapre two objects to determine if the first one contains the same properties as the second one (which may also have some additional properties )
+        // solution :
+        // const objA = { a: 1, b: 4, c: 3};
+        // const objB = { a: 1, b: 2, c: 3};
+        // const objC = { a: 1, b: 2, c: 3};
+
+        // const compare = (a,b) => {
+        //    console.log(Object.keys(a));
+        //    console.log(Object.keys(b));
+        // }
+        // console.log(compare(objA,objC));
+
+        // Exercise 3. Write a Javascript program to convert a comma-seperated values (CSV) string to a 2D array. A new line indicates a new row in the array.
+
+        // Example 
+        // abc,def,ghi
+        // jkl,mno,Pqr
+        // stu,vwx,yza
+
+        // const convert = (string) => 
+        //     string.split('\n').map(row => row.split(','));
+
+        // const str = `abc,def,ghi
+        // jkl,mno,pqr
+        // stu,vwx,yza`
+        // console.log(convert(str))
+        
+        // Exercise 4. Write a Javascript program to generate a random hexadecimal color code .
+
+        // example  
+        // #ff0000
+        // solution:   
+    //    const getRandomHexNumber = () => 
+    //      Math.floor(Math.random()*16).toString(16);
+       
+
+    //    const getRandomHexColor = () => '#' + Array.from({length: 6}).map(getRandomHexNumber).join('');
+       
+
+    //    console.log(getRandomHexColor());
+
+    // Exercise 5. Write a javascript function that returns true if the provided predicate function returns true for all elements in a collection , false otherwise.
+
+    // Solution :
+    // const isEveryElem = (arr,fn) => {
+    //     for (let i = 0 ; i<arr.length; i++){
+    //         if(!fn(arr[i])){
+    //             return false
+    //         }
+        
+    //     }
+    //     return true
+    // }
+
+    // console.log(isEveryElem([1,2,3,4,5], (x) => x > 0))
+    // console.log(isEveryElem([1,2,3,4,5], (x) => x > 3) )
+    
+    </script>
+</body>
+</html>
